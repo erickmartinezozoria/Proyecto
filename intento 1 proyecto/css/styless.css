@@ -88,7 +88,7 @@ background: #5BBF21; /*#5BBF21*/
 /* Paso 6 Bienvenida */
 
 #welcome {
-background: url('/imagenes/School_English_Pencils.jpg') no-repeat center center/cover;
+background: url('../imagenes/School_English_Pencils.jpg') no-repeat center center/cover;
 height: 600px;
 }
 
@@ -137,7 +137,7 @@ height: 400px;
 #home-info .info-img {
 float: left;
 width: 50%;
-background: url('/imagenes/fondo-moderno-concepto-educacion.jpg') no-repeat center center/cover;
+background: url('../imagenes/fondo-moderno-concepto-educacion.jpg') no-repeat center center/cover;
 min-height: 100%;
 }
 
@@ -213,7 +213,7 @@ min-height: 100%;
 /* Testimonos */
 #testimonials {
 height: 600px;
-background: url('/imagenes/fondo de colegio nexus.jpg') no-repeat center center/cover;
+background: url('../imagenes/fondo de colegio nexus.jpg') no-repeat center center/cover;
 padding-top: 100px;
 }
 
