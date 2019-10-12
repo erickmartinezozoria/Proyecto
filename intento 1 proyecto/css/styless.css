@@ -1,0 +1,283 @@
+
+/* <!--Paso 3--> Reiniciar */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Estilo Menú */
+html, body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.7em;
+}
+a {
+color: #3374FF; /*#333 color del segundo icono (libro)*/
+text-decoration: none;
+}
+h1, h2, h3 {
+padding-bottom: 20px;
+}
+p {
+margin: 10px 0;
+}
+/* Clases Generales */
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+margin: auto;
+max-width: 1100px;
+overflow: auto;
+padding: 0 20px;
+}
+/* Navbar */
+#navbar {
+ background: #3374FF; /*#215b33 color azul barra*/
+ color: #fff; /*#fff*/
+ overflow: auto;
+}
+#navbar a {
+color: #fff; /*fff(color blanco) color de las letras de la barra*/
+}
+#navbar h1 {
+float: left;
+padding-top: 20px;
+}
+#navbar ul {
+list-style: none;
+float: right;
+}
+#navbar ul li{
+float: left;
+}
+#navbar ul li a {
+display: block;
+padding: 20px;
+text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+border-color: #64FFDA;/*#FFFC33 #3d8e33*/
+background: #F4F6F7; /*fff*/
+color: #616161;/*F4F6F7,5BBF21 COLOR DEL SELECCIONADOR*/
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+color:#3374FF; /*5BBF21 COLOR DE LAS LETRAS DEL HASHTAG ENCABEZADO PRINCIPAL*/
+}
+
+.lead {
+font-size: 20px;
+}
+
+.btn {
+display: inline-block;
+font-size: 18px;
+color: #3374FF; /*#fff letras del boton principal*/
+background: #333; /*#333 color de boton principal*/
+padding: 13px 20px;
+border: none;
+cursor: pointer;
+}
+
+.btn:hover {
+background: #5BBF21; /*#5BBF21*/
+}
+
+
+
+/* Paso 6 Bienvenida */
+
+#welcome {
+background: url('/imagenes/School_English_Pencils.jpg') no-repeat center center/cover;
+height: 600px;
+}
+
+#welcome .welcome-content {
+color: #F78730;/*fff color de las letras del que tienen el hashtag al inicio*/
+text-align: center;
+padding-top: 170px;
+}
+
+#welcome .welcome-content h1 {
+font-size: 60px;
+line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+padding-bottom: 20px;
+line-height: 1.7em;
+}
+
+/*----- pASO 8 */
+.btn-light {
+background: #FAFAFA;/*#f4f4f4 color boton de leer mas*/
+color: ##3374FF;/*#215b33*/
+}
+
+.bg-dark {
+background: #FFB74D; /*#215b33 color del segundo cuadro a mediacion de la pagina principal*/
+color: #FAFAFA;/*#fff*/
+}
+
+.bg-light {
+background: #f4f4f4; /*f4f4f4 color del fondo de preeschool*/
+color: #3374FF; /*#215b33 color del fontawesome (preeschool)*/
+}
+
+.bg-primary {
+background: #3374FF;/*#5BBF21 color de los recuadros de la pagina "acerca de"*/
+color: #000000; /*215b33 color de las letras de los recuadros*/
+}
+/* PASO 9 Información Principal */
+
+#home-info {
+height: 400px;
+}
+
+#home-info .info-img {
+float: left;
+width: 50%;
+background: url('/imagenes/fondo-moderno-concepto-educacion.jpg') no-repeat center center/cover;
+min-height: 100%;
+}
+
+#home-info .info-content {
+float: right;
+width: 50%;
+height: 100%;
+text-align: center;
+padding: 50px 30px;
+overflow: hidden;
+}
+
+#home-info .info-content p {
+padding-bottom: 30px
+}
+/*PASO 11*/
+.box {
+float: left;
+width: 33.3%;
+padding: 50px;
+text-align: center;
+}
+.box i {
+margin-bottom: 10px;
+}
+/* PASO 13---*/
+.clr {
+clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+text-align: center;
+background: #F014C8;/*#468d5c*/
+color: #F014C8;/*#fff*/
+padding: 20px;
+}
+
+/*---- PASO 15*/
+.l-heading {
+font-size: 20px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* PASO 16*/
+/* Acerca de */
+
+#about-info .info-right {
+float: right;
+width: 50%;
+min-height: 100%;
+}
+
+#about-info .info-right img {
+display: block;
+margin: auto;
+width: 70%;
+border-radius: 50%;
+}
+
+#about-info .info-left {
+float: left;
+width: 50%;
+min-height: 100%;
+}
+
+/* Testimonos */
+#testimonials {
+height: 600px;
+background: url('/imagenes/fondo de colegio nexus.jpg') no-repeat center center/cover;
+padding-top: 100px;
+}
+
+#testimonials h2 {
+color: #fff;
+text-align: center;
+padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+padding: 20px;
+margin-bottom: 40px;
+border-radius: 5px;
+opacity: 0.9;
+}
+/* border-radius para obtener el efecto redondo de las imágenes */
+#testimonials .testimonial img {
+width: 100px;
+float: left;
+margin-right: 20px;
+border-radius: 50%;
+}
+
+
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+margin-bottom: 20px;
+}
+
+#contact-form label {
+display: block;
+margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+width: 100%;
+padding: 10px;
+border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+height: 200px;
+}
+
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contact-form input:focus,
+#contact-form textarea:focus {
+outline: none;
+border-color: #F014C8; /*5BBF21*/
+}
+#videos {
+  height: auto;
+  background: url('../imagenes/fondo-moderno-concepto-educacion.jpg')no repeat center center/cover;
+  padding-top: 100px;
+}
+
+
+
+/*338AFF color azul
+#000000 color negro
+#1C3E8A color azul fuerte
+#7F8C8D color gris
+#566573 gris */
